@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+
+
+body {
+	background-color: skyblue;
+	font-family: 'Droid Serif', serif;
+    box-sizing: border-box;
+
+}
+
+#Content {
+	background-color: white;
+	font-size: 25px;
+	width: 450px;
+	border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    padding: 10px;
+    transition: height 2s;
+
+}
+
+#quote {
+	text-align: center;
+    margin-top: 43px;
+	color: skyblue;
+    opacity: 1;
+
+}
+
+#Author {
+    color: skyblue;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 20px;
+    font-style: italic;
+}
+
+#button {
+
+    padding: 10px;
+    font-size: 13px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+    text-align: right;
+    float: right;
+    margin-right: 25px;
+    margin-top: 23px;
+    cursor: pointer;
+
+}
+
+#tweet {    
+    float: left;
+    margin-top: 25px;
+    margin-left: 42px;
+    background-color: skyblue;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 8px 10px 5px 10px;
+
+}
+
+
